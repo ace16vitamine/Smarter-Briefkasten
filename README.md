@@ -1,5 +1,10 @@
 # esp8266-briefkasten
-Smarter Briefkasten mit ESP8266 und MQTT (WLAN. Code befindet sich in main.ino
+Smarter Briefkasten mit ESP8266 und MQTT WLAN. Das Modul wird in den Briefkasten eingebaut und versendet den inneren Abstand über MQTT an einen Broker. Von dort kann z.B. mittels OpenHAB der Wert verarbeitet werden um über neue Briefe im Briefksten zu benachrichtigen.
+
+
+
+
+Code befindet sich in main.ino
 
 
 
