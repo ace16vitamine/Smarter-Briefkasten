@@ -4,7 +4,6 @@
 
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
-#define GPIO02 2
 
 // MQTT 
 const char* clientId = "ESP-Briefkasten";
@@ -23,10 +22,8 @@ const char* password = "Kennwort"; //Kennwort
 const int trigPin = 12;
 const int echoPin = 14;
 
-// #define CM_TO_INCH 0.393701
 long duration;
 float distanceCm;
-//float distanceInch;
 
 WiFiClient espClient;
 PubSubClient client(espClient); 
