@@ -20,7 +20,7 @@ StepUp Converter (3,7V auf 5V): https://amzn.to/3JODUO0
 
 
 --------
-Beschreibung Version 2: Smarter Briefkasten mit ESP32 und MQTT WLAN. Das Modul wird in den Briefkasten eingebaut und versendet wie folgt die Öffnungen über MQTT an einen Broker. Von dort kann z.B. mittels OpenHAB der Wert verarbeitet werden um über neue Briefe im Briefksten zu benachrichtigen.
+Beschreibung Version 2: Smarter Briefkasten mit ESP32 und MQTT WLAN. Da der ESP32 nach dem aufwecken aus dem DeepSleep keinen Reset benötigt, kann dieser mit den Reedkontakten verwendet werden. Das Modul wird in den Briefkasten eingebaut und versendet wie folgt die Öffnungen über MQTT an einen Broker. Von dort kann z.B. mittels OpenHAB der Wert verarbeitet werden um über neue Briefe im Briefksten zu benachrichtigen. Dazu muss Schalter 1 an der Einwurfklappe und Schalter 2 an der Öffnungsklappe angeschlossen werden.
 
 Logik: 
 
