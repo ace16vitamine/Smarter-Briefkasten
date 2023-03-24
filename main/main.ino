@@ -1,6 +1,7 @@
 
 // Code für den smarten Briefkasten
 // 15.03.2023 Stefan Eggert
+// Add: NewPing Lib, https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home#!connection-example
 
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
