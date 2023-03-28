@@ -1,6 +1,8 @@
 # Smarter Briefkasen.
 
-Vorweg: Version 1 und Version 2 arbeiten mit WLAN und MQTT. Der Unterschied: Version 1 nutzt einen Ultraschallsensor, Version 2 zwei Reedkontakte. Ich finde die Reedkontakte besser, da nicht immer einzelne Briefe mit dem Ultraschallsensor erfasst werden. Zudem ist die Lösung günstiger und es wird weniger Hardware benötigt.
+Vorweg: Version 1 und Version 2 arbeiten mit WLAN und MQTT. Der Unterschied: Version 1 nutzt einen Ultraschallsensor, Version 2 zwei Reedkontakte. Ich finde die Reedkontakte besser, da nicht immer einzelne Briefe mit dem Ultraschallsensor erfasst werden. Zudem ist die Lösung günstiger und es wird weniger Hardware benötigt. In Version zwei wird zusätzlich ein Update nach dem Öffnen gemacht. Hierzu verwende ich OTAdrive (bis zu 10 Devices kostenlos, https://otadrive.com)
+
+
 
 --------
 Beschreibung Version 1: Smarter Briefkasten mit ESP8266 und MQTT WLAN. Das Modul wird in den Briefkasten eingebaut und versendet den inneren Abstand über MQTT an einen Broker. Von dort kann z.B. mittels OpenHAB der Wert verarbeitet werden um über neue Briefe im Briefksten zu benachrichtigen.
